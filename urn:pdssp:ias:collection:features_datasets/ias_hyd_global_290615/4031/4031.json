@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "4031",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          75.79247434435592,
+          16.465222348916768
+        ],
+        [
+          75.77387845638543,
+          16.54094213226915
+        ],
+        [
+          75.8017834236033,
+          16.615542821764507
+        ],
+        [
+          75.8152793614596,
+          16.6248574686432
+        ],
+        [
+          75.8152793614596,
+          16.579247434435615
+        ],
+        [
+          75.9064994298746,
+          16.579247434435615
+        ],
+        [
+          75.92059667189295,
+          16.545674618728754
+        ],
+        [
+          75.91534082810733,
+          16.522234891676078
+        ],
+        [
+          75.92088618871162,
+          16.49756471814436
+        ],
+        [
+          75.79247434435592,
+          16.465222348916768
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    75.77387845638543,
+    16.465222348916768,
+    75.92088618871162,
+    16.6248574686432
+  ],
+  "properties": {
+    "grid_code": 0,
+    "Shape_Leng": 0.528989,
+    "Shape_Area": 0.014123,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

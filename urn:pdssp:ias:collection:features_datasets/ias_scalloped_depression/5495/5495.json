@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "5495",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            86.73572291268555,
+            44.28362261542465,
+            0.0
+          ],
+          [
+            86.73095813263039,
+            44.28401968042913,
+            0.0
+          ],
+          [
+            86.73175226263963,
+            44.28223288790866,
+            0.0
+          ],
+          [
+            86.7333405226579,
+            44.28223288790866,
+            0.0
+          ],
+          [
+            86.73373758766257,
+            44.28262995291318,
+            0.0
+          ],
+          [
+            86.73572291268555,
+            44.28362261542465,
+            0.0
+          ]
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    86.73095813263039,
+    44.28223288790866,
+    86.73572291268555,
+    44.28401968042913
+  ],
+  "properties": {
+    "Name": "0",
+    "description": null,
+    "begin": null,
+    "end": null,
+    "altitudeMode": null,
+    "tessellate": -1,
+    "extrude": 0,
+    "visibility": -1,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "hirise"
+    ],
+    "platform": "mro",
+    "datetime": "2011-05-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_scalloped_depression"
+}

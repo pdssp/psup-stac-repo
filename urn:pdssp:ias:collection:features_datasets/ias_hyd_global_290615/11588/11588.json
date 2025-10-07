@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "11588",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          53.94526795895098,
+          -28.59749144811849
+        ],
+        [
+          53.88865628563292,
+          -28.585142442274787
+        ],
+        [
+          53.79699080672759,
+          -28.592502850627113
+        ],
+        [
+          53.72946657639682,
+          -28.511326788768542
+        ],
+        [
+          53.82030804589516,
+          -28.518631520809492
+        ],
+        [
+          53.936626995439156,
+          -28.48679580601481
+        ],
+        [
+          54.18387435860899,
+          -28.45787752993158
+        ],
+        [
+          54.09229796180159,
+          -28.536793133551896
+        ],
+        [
+          54.09494815421891,
+          -28.569809186145903
+        ],
+        [
+          53.930235354903175,
+          -28.55658049458384
+        ],
+        [
+          53.94526795895098,
+          -28.59749144811849
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    53.72946657639682,
+    -28.59749144811849,
+    54.18387435860899,
+    -28.45787752993158
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 1.078996,
+    "Shape_Area": 0.030846,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

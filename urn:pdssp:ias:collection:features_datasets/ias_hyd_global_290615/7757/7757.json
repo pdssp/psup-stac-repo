@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "7757",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          94.150513112885,
+          -7.297605473204101
+        ],
+        [
+          94.13764074971499,
+          -7.287672819270199
+        ],
+        [
+          94.1177754418473,
+          -7.261928092930475
+        ],
+        [
+          94.00375035632845,
+          -7.237864791191498
+        ],
+        [
+          94.02374928734332,
+          -7.170296019811872
+        ],
+        [
+          94.04789053591793,
+          -7.173859303734275
+        ],
+        [
+          94.20367285490317,
+          -7.150842716647617
+        ],
+        [
+          94.24531873574693,
+          -7.214024194697856
+        ],
+        [
+          94.17037842075268,
+          -7.271860746864263
+        ],
+        [
+          94.150513112885,
+          -7.297605473204101
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    94.00375035632845,
+    -7.297605473204101,
+    94.24531873574693,
+    -7.150842716647617
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 0.620509,
+    "Shape_Area": 0.020458,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

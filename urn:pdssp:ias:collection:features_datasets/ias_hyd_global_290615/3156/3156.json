@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "3156",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          78.27822120866591,
+          18.563283922462972
+        ],
+        [
+          78.26390126140257,
+          18.57176899230336
+        ],
+        [
+          78.2469311217219,
+          18.6232139039339
+        ],
+        [
+          78.20332543472074,
+          18.683795298246935
+        ],
+        [
+          78.26681870011419,
+          18.661992454746326
+        ],
+        [
+          78.29492410205256,
+          18.67164115949265
+        ],
+        [
+          78.35512132981756,
+          18.635952643956784
+        ],
+        [
+          78.33674814709246,
+          18.61585906321278
+        ],
+        [
+          78.3104021165907,
+          18.62490646379706
+        ],
+        [
+          78.27822120866591,
+          18.563283922462972
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    78.20332543472074,
+    18.563283922462972,
+    78.35512132981756,
+    18.683795298246935
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 0.436892,
+    "Shape_Area": 0.007096,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

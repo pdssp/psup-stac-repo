@@ -1,0 +1,74 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "H_frt0000527c",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      79.85553,
+      -16.483215
+    ]
+  },
+  "bbox": [
+    79.85553,
+    -16.483215,
+    79.85553,
+    -16.483215
+  ],
+  "properties": {
+    "Index": 13,
+    "longitude": 79.85553,
+    "latitude": -16.483215,
+    "name": "H",
+    "diameter": 22.0,
+    "ejecta": "non-visible",
+    "wall": "visible",
+    "floor": "unknown",
+    "central_pe": "visible",
+    "f6": [
+      "Chlorite",
+      "Fe",
+      "Mg-smectite",
+      "carbonates"
+    ],
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism"
+    ],
+    "mission": "mro",
+    "datetime": "2014-07-31T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "detections_crateres_benjamin_bultel_icarus"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "detections_crateres_benjamin_bultel_icarus"
+    }
+  ],
+  "assets": {
+    "crism_url": {
+      "href": "https://viewer.mars.asu.edu/viewer/crism/frt0000527c",
+      "type": "text/html"
+    }
+  },
+  "collection": "ias_detections_crateres_benjamin_bultel_icarus"
+}

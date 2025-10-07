@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "1299",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          79.46408209806168,
+          22.690992018244003
+        ],
+        [
+          79.47613045182453,
+          22.680229787272026
+        ],
+        [
+          79.49806691847215,
+          22.655676533993812
+        ],
+        [
+          79.58073510547325,
+          22.700590614310272
+        ],
+        [
+          79.53249714937294,
+          22.62257696693274
+        ],
+        [
+          79.50327822120869,
+          22.611174458380788
+        ],
+        [
+          79.53249714937294,
+          22.599771949829062
+        ],
+        [
+          79.51557155074119,
+          22.56889386758843
+        ],
+        [
+          79.43568717930441,
+          22.631479609107828
+        ],
+        [
+          79.46408209806168,
+          22.690992018244003
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    79.43568717930441,
+    22.56889386758843,
+    79.58073510547325,
+    22.700590614310272
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 0.500248,
+    "Shape_Area": 0.007666,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

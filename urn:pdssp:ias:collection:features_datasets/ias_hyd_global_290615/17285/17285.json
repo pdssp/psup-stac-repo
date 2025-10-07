@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "17285",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -70.84378563283917,
+          -73.24971493728623
+        ],
+        [
+          -71.10478504489737,
+          -73.23872443343788
+        ],
+        [
+          -71.08449659706378,
+          -73.21424912699547
+        ],
+        [
+          -70.9624652579817,
+          -73.19301418186996
+        ],
+        [
+          -71.05917501068978,
+          -73.16536532568415
+        ],
+        [
+          -70.90857058865441,
+          -73.13898588939566
+        ],
+        [
+          -70.65120127209235,
+          -73.17117793258262
+        ],
+        [
+          -70.68714589866016,
+          -73.21155439352896
+        ],
+        [
+          -70.83364140892246,
+          -73.23705414409915
+        ],
+        [
+          -70.84378563283917,
+          -73.24971493728623
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -71.10478504489737,
+    -73.24971493728623,
+    -70.65120127209235,
+    -73.13898588939566
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 1.148723,
+    "Shape_Area": 0.031002,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

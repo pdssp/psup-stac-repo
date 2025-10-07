@@ -1,0 +1,64 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "593",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      163.0,
+      59.5,
+      0.0
+    ]
+  },
+  "bbox": [
+    163.0,
+    59.5,
+    163.0,
+    59.5
+  ],
+  "properties": {
+    "Index": 593,
+    "Name": "59,5",
+    "tessellate": -1,
+    "lat": 59.5,
+    "lon": 197.0,
+    "diam": 5.83,
+    "type": "rampart crater",
+    "lon_earth": 163.0,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "viking1",
+      "viking2"
+    ],
+    "platform": "viking",
+    "datetime": "1989-06-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "costard_craters"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "costard_craters"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_costard_craters"
+}

@@ -1,0 +1,72 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "32",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -57.57901,
+      -14.733885
+    ]
+  },
+  "bbox": [
+    -57.57901,
+    -14.733885,
+    -57.57901,
+    -14.733885
+  ],
+  "properties": {
+    "latitude": -14.733885,
+    "longitude": -57.57901,
+    "canyon": "Coprates E",
+    "location_w": "bottom walls, S",
+    "lcp_rich_b": -500.0,
+    "chemical_composition": [
+      "Fe/Mg-phyllo"
+    ],
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "hirise"
+    ],
+    "mission": "mro",
+    "datetime": "2012-08-06T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "lcp_flahaut_et_al"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "lcp_flahaut_et_al"
+    }
+  ],
+  "assets": {
+    "crism_url": {
+      "href": "https://viewer.mars.asu.edu/viewer/crism/HRL0000CD37",
+      "type": "text/html"
+    },
+    "hirise_url": {
+      "href": "https://www.uahirise.org/PSP_010277_1650",
+      "type": "text/html"
+    }
+  },
+  "collection": "ias_lcp_flahaut_et_al"
+}

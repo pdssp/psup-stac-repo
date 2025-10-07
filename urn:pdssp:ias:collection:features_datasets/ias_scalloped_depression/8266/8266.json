@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "8266",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            92.27924624407939,
+            45.22227480786444,
+            0.0
+          ],
+          [
+            92.2906954034624,
+            45.21655022817294,
+            0.0
+          ],
+          [
+            92.29686033543781,
+            45.20972476777143,
+            0.0
+          ],
+          [
+            92.30456650040723,
+            45.20730283020965,
+            0.0
+          ],
+          [
+            92.30764896639494,
+            45.21236688147525,
+            0.0
+          ],
+          [
+            92.29443839787604,
+            45.22513709771027,
+            0.0
+          ],
+          [
+            92.29335706424659,
+            45.22652738380528,
+            0.0
+          ],
+          [
+            92.27924624407939,
+            45.22227480786444,
+            0.0
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            92.29335706424659,
+            45.22652738380528,
+            0.0
+          ],
+          [
+            92.29531910244393,
+            45.22711868298804,
+            0.0
+          ],
+          [
+            92.29289716488215,
+            45.22711868298801,
+            0.0
+          ],
+          [
+            92.29335706424659,
+            45.22652738380528,
+            0.0
+          ]
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    92.27924624407939,
+    45.20730283020965,
+    92.30764896639494,
+    45.22711868298804
+  ],
+  "properties": {
+    "Name": "0",
+    "description": null,
+    "begin": null,
+    "end": null,
+    "altitudeMode": null,
+    "tessellate": -1,
+    "extrude": 0,
+    "visibility": -1,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "hirise"
+    ],
+    "platform": "mro",
+    "datetime": "2011-05-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_scalloped_depression"
+}

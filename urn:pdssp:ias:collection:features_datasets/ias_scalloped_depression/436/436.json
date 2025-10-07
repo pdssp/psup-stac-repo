@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "436",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            91.64092324941868,
+            44.90069348877547,
+            0.0
+          ],
+          [
+            91.64779466004153,
+            44.89764332556989,
+            0.0
+          ],
+          [
+            91.66208638109616,
+            44.90371679330075,
+            0.0
+          ],
+          [
+            91.66428514802377,
+            44.91773393246378,
+            0.0
+          ],
+          [
+            91.65878823070493,
+            44.91361124447474,
+            0.0
+          ],
+          [
+            91.64147294115057,
+            44.92240631218477,
+            0.0
+          ],
+          [
+            91.63515148623394,
+            44.91471062793847,
+            0.0
+          ],
+          [
+            91.6384496366253,
+            44.90976340235159,
+            0.0
+          ],
+          [
+            91.6384496366253,
+            44.90426648503276,
+            0.0
+          ],
+          [
+            91.64092324941868,
+            44.90069348877547,
+            0.0
+          ]
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    91.63515148623394,
+    44.89764332556989,
+    91.66428514802377,
+    44.92240631218477
+  ],
+  "properties": {
+    "Name": "0",
+    "description": null,
+    "begin": null,
+    "end": null,
+    "altitudeMode": null,
+    "tessellate": -1,
+    "extrude": 0,
+    "visibility": -1,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "hirise"
+    ],
+    "platform": "mro",
+    "datetime": "2011-05-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_scalloped_depression"
+}

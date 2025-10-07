@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "5701",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          80.71835803876854,
+          3.717217787913398
+        ],
+        [
+          80.74615165336377,
+          3.72502360675611
+        ],
+        [
+          80.72617499287355,
+          3.745022537770808
+        ],
+        [
+          80.71835803876854,
+          3.717217787913398
+        ],
+        [
+          80.66038786345496,
+          3.70298135511689
+        ],
+        [
+          80.61782889110606,
+          3.731136865735493
+        ],
+        [
+          80.73555088369443,
+          3.772142468999505
+        ],
+        [
+          80.79608216932735,
+          3.713125579033772
+        ],
+        [
+          80.74053948118598,
+          3.685098123931027
+        ],
+        [
+          80.71835803876854,
+          3.717217787913398
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    80.61782889110606,
+    3.685098123931027,
+    80.79608216932735,
+    3.772142468999505
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 0.507188,
+    "Shape_Area": 0.007016,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

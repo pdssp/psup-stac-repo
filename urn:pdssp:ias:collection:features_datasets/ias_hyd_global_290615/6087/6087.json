@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "6087",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          2.862029646522274,
+          1.641961231471043
+        ],
+        [
+          2.839224629418595,
+          1.641961231471043
+        ],
+        [
+          2.839224629418595,
+          1.619156214367194
+        ],
+        [
+          2.802923674458384,
+          1.609841567488672
+        ],
+        [
+          2.775853851909858,
+          1.570623173817012
+        ],
+        [
+          2.738695481756054,
+          1.595159724201949
+        ],
+        [
+          2.771655858038798,
+          1.742189727052562
+        ],
+        [
+          2.802923674458384,
+          1.69688591255715
+        ],
+        [
+          2.852720567274901,
+          1.678256618799935
+        ],
+        [
+          2.862029646522274,
+          1.641961231471043
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    2.738695481756054,
+    1.570623173817012,
+    2.862029646522274,
+    1.742189727052562
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 0.471632,
+    "Shape_Area": 0.010338,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

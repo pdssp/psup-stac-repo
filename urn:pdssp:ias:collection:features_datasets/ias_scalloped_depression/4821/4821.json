@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "4821",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            83.72106084247274,
+            44.10929000858607,
+            0.0
+          ],
+          [
+            83.7256833264642,
+            44.08698149888801,
+            0.0
+          ],
+          [
+            83.73372242905815,
+            44.09220691557401,
+            0.0
+          ],
+          [
+            83.7345263393176,
+            44.10225579381643,
+            0.0
+          ],
+          [
+            83.73955077843868,
+            44.10888805345644,
+            0.0
+          ],
+          [
+            83.73955077843868,
+            44.11069685154002,
+            0.0
+          ],
+          [
+            83.72106084247274,
+            44.10929000858607,
+            0.0
+          ]
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    83.72106084247274,
+    44.08698149888801,
+    83.73955077843868,
+    44.11069685154002
+  ],
+  "properties": {
+    "Name": "0",
+    "description": null,
+    "begin": null,
+    "end": null,
+    "altitudeMode": null,
+    "tessellate": -1,
+    "extrude": 0,
+    "visibility": -1,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "hirise"
+    ],
+    "platform": "mro",
+    "datetime": "2011-05-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_scalloped_depression"
+}

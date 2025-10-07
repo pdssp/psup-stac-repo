@@ -1,0 +1,64 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "190",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -3.0,
+      61.5,
+      0.0
+    ]
+  },
+  "bbox": [
+    -3.0,
+    61.5,
+    -3.0,
+    61.5
+  ],
+  "properties": {
+    "Index": 190,
+    "Name": "61,5",
+    "tessellate": -1,
+    "lat": 61.5,
+    "lon": 3.0,
+    "diam": 2.75,
+    "type": "pedestal crater",
+    "lon_earth": -3.0,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "viking1",
+      "viking2"
+    ],
+    "platform": "viking",
+    "datetime": "1989-06-01T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "costard_craters"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "costard_craters"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_costard_craters"
+}

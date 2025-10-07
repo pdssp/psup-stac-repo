@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "6720",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          71.04903078677302,
+          -1.413911060433236
+        ],
+        [
+          71.04903078677302,
+          -1.391106043329444
+        ],
+        [
+          71.18586088939577,
+          -1.391106043329444
+        ],
+        [
+          71.18586088939577,
+          -1.34549600912203
+        ],
+        [
+          71.23147092360318,
+          -1.34549600912203
+        ],
+        [
+          71.21806406784498,
+          -1.380371650513041
+        ],
+        [
+          71.26440902936145,
+          -1.41749104724903
+        ],
+        [
+          71.17964741305593,
+          -1.480232682440032
+        ],
+        [
+          71.13907051738897,
+          -1.429583942061015
+        ],
+        [
+          71.04903078677302,
+          -1.413911060433236
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    71.04903078677302,
+    -1.480232682440032,
+    71.26440902936145,
+    -1.34549600912203
+  ],
+  "properties": {
+    "grid_code": 0,
+    "Shape_Leng": 0.609345,
+    "Shape_Area": 0.011583,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

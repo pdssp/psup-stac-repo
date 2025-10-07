@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "1637",
+  "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+      [
+        [
+          [
+            82.83976876831052,
+            44.5128697333879,
+            0.0
+          ],
+          [
+            82.83986398005173,
+            44.51087028682047,
+            0.0
+          ],
+          [
+            82.84291075577362,
+            44.50858520502914,
+            0.0
+          ],
+          [
+            82.84433893189322,
+            44.50906126373559,
+            0.0
+          ],
+          [
+            82.84548147278889,
+            44.51039422811391,
+            0.0
+          ],
+          [
+            82.84624316671936,
+            44.51220325119886,
+            0.0
+          ],
+          [
+            82.84252990880843,
+            44.51372663905966,
+            0.0
+          ],
+          [
+            82.83976876831052,
+            44.5128697333879,
+            0.0
+          ]
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    82.83976876831052,
+    44.50858520502914,
+    82.84624316671936,
+    44.51372663905966
+  ],
+  "properties": {
+    "Name": "0",
+    "description": null,
+    "begin": null,
+    "end": null,
+    "altitudeMode": null,
+    "tessellate": -1,
+    "extrude": 0,
+    "visibility": -1,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "hirise"
+    ],
+    "platform": "mro",
+    "datetime": "2011-05-11T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "scalloped_depression"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_scalloped_depression"
+}

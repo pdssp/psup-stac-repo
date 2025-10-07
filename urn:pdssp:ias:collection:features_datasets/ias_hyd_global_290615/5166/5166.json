@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "5166",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -17.04675028506267,
+          8.734321550741242
+        ],
+        [
+          -17.009569644384214,
+          8.72477863098635
+        ],
+        [
+          -17.0212171287057,
+          8.672804794398644
+        ],
+        [
+          -16.969026154503922,
+          8.684507955031393
+        ],
+        [
+          -16.998467787913285,
+          8.633786835447552
+        ],
+        [
+          -17.063776101054657,
+          8.66500454318708
+        ],
+        [
+          -17.04675028506267,
+          8.734321550741242
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    -17.063776101054657,
+    8.633786835447552,
+    -16.969026154503922,
+    8.734321550741242
+  ],
+  "properties": {
+    "grid_code": 255,
+    "Shape_Leng": 0.347546,
+    "Shape_Area": 0.004501,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}

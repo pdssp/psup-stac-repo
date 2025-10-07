@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json"
+  ],
+  "id": "5721",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          3.933865450399196,
+          3.671607753705871
+        ],
+        [
+          3.97947548460661,
+          3.671607753705871
+        ],
+        [
+          3.97947548460661,
+          3.694412770809549
+        ],
+        [
+          4.002280501710459,
+          3.694412770809549
+        ],
+        [
+          4.002280501710459,
+          3.671607753705871
+        ],
+        [
+          4.047890535918043,
+          3.671607753705871
+        ],
+        [
+          4.047890535918043,
+          3.648802736602136
+        ],
+        [
+          3.99097821051879,
+          3.634822414837515
+        ],
+        [
+          3.953452376710459,
+          3.643235105473195
+        ],
+        [
+          3.933865450399196,
+          3.671607753705871
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    3.933865450399196,
+    3.634822414837515,
+    4.047890535918043,
+    3.694412770809549
+  ],
+  "properties": {
+    "grid_code": 0,
+    "Shape_Leng": 0.313979,
+    "Shape_Area": 0.003716,
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "instruments": [
+      "crism",
+      "omega"
+    ],
+    "platform": "mro/mex",
+    "gsd": 0.3,
+    "datetime": "2013-04-24T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "hyd_global_290615"
+    }
+  ],
+  "assets": {},
+  "collection": "ias_hyd_global_290615"
+}
