@@ -1,0 +1,12 @@
+services:
+  server:
+    image: server-nginx
+    build:
+      dockerfile: ./.docker/Dockerfile
+      context: .
+    volumes:
+      - ./catalog:/usr/share/nginx/html/catalog:ro
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    ports:
+      - "80:80"
+    # no need for a network here
