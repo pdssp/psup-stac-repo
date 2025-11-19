@@ -14,3 +14,6 @@ docker compose up -d
 
 And go to `http://localhost`to see the result.
 
+# Using Radiant Earth's STAC Browser
+
+You can implement directly the root catalog inside [STAC Browser](https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/pdssp/psup-stac-repo/refs/heads/main/catalog/catalog.json). It gives a quicklook as well as a compliance with the schemas.
