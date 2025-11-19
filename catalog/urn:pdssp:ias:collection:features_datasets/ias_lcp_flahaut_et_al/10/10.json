@@ -59,11 +59,21 @@
   "assets": {
     "crism_url": {
       "href": "https://viewer.mars.asu.edu/viewer/crism/FRT0000C59A",
-      "type": "text/html"
+      "type": "text/html",
+      "description": "The CRISM image used for observations",
+      "roles": [
+        "visual",
+        "data"
+      ]
     },
     "hirise_url": {
       "href": "https://www.uahirise.org/PSP_009894_1665",
-      "type": "text/html"
+      "type": "text/html",
+      "description": "The associated HiRISE image for complementary observations",
+      "roles": [
+        "visual",
+        "data"
+      ]
     }
   },
   "collection": "ias_lcp_flahaut_et_al"

@@ -1,0 +1,358 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
+  ],
+  "id": "0030_0",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          60.964,
+          -60.0
+        ],
+        [
+          60.964,
+          -59.6562
+        ],
+        [
+          275.202,
+          -59.6562
+        ],
+        [
+          275.202,
+          -60.0
+        ],
+        [
+          60.964,
+          -60.0
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    60.964,
+    -60.0,
+    275.202,
+    -59.6562
+  ],
+  "properties": {
+    "solar_longitude": 335.691,
+    "orbit_number": 30,
+    "cube_number": 0,
+    "data_quality_id": 3,
+    "start_datetime": "2004-01-18T20:27:30.034000Z",
+    "end_datetime": "2004-01-18T20:43:20.091000Z",
+    "ssys:targets": [
+      "mars"
+    ],
+    "ssys:local_time": null,
+    "ssys:target_class": "planet",
+    "cube:dimensions": {
+      "wavelength": {
+        "wavelength": {
+          "type": "spatial",
+          "description": "electomagnetic wavelength",
+          "axis": "z",
+          "extent": [
+            0.9691500067710876,
+            2.6309800148010254
+          ],
+          "unit": "micrometer"
+        }
+      },
+      "latitude": {
+        "latitude": {
+          "type": "spatial",
+          "description": "latitude of the pixel",
+          "axis": "y",
+          "extent": [
+            -60.0,
+            -59.65625
+          ],
+          "step": 0.03125,
+          "unit": "degrees_north"
+        }
+      },
+      "longitude": {
+        "longitude": {
+          "type": "spatial",
+          "description": "longitude of the pixel",
+          "axis": "x",
+          "extent": [
+            -121.78125,
+            -119.03125
+          ],
+          "step": 0.03125,
+          "unit": "degrees_east"
+        }
+      }
+    },
+    "cube:variables": {
+      "solar_longitude": {
+        "solar_longitude": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "Mars-Sun angle, measured from the Northern Hemisphere spring equinox where Ls=0.",
+          "values": [
+            335.6910095214844
+          ],
+          "unit": "degrees"
+        }
+      },
+      "data_quality": {
+        "data_quality": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "as defined in EAICD",
+          "values": [
+            3
+          ],
+          "unit": "1"
+        }
+      },
+      "start_time": {
+        "start_time": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "time when acquisition starts",
+          "values": [
+            "2004-01-18T20:27:30.034"
+          ],
+          "unit": "1"
+        }
+      },
+      "stop_time": {
+        "stop_time": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "time when acquisition stops",
+          "values": [
+            "2004-01-18T20:43:20.091"
+          ],
+          "unit": "1"
+        }
+      },
+      "Reflectance": {
+        "Reflectance": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "The reflectance of the surface at a given wavelength lambda is defined by the 'reflectance factor' I(lambda)/(F cos(i)) where i is the solar incidence angle with lambda from 0.97 to 2.55 micrometer. The spectra are corrected for atmospheric and aerosol contributions according to the method described in Vincendon et al. (Icarus, 251, 2015). It therefore corresponds to albedo for a lambertian surface.",
+          "extent": [
+            -1.0,
+            0.3846418559551239
+          ],
+          "unit": "1"
+        }
+      },
+      "altitude": {
+        "altitude": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "altitude of the mars surface based on the MOLA topography",
+          "extent": [
+            1.1137501001358032,
+            2.294630765914917
+          ],
+          "unit": "meter"
+        }
+      },
+      "incidence_g": {
+        "incidence_g": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "incidence on the ellipsoid",
+          "extent": [
+            52.09479904174805,
+            69.63792419433594
+          ],
+          "unit": "degrees"
+        }
+      },
+      "incidence_n": {
+        "incidence_n": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "incidence wrt the local gravity field",
+          "extent": [
+            43.761898040771484,
+            69.57360076904297
+          ],
+          "unit": "degrees"
+        }
+      },
+      "tau": {
+        "tau": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "Taueff, the effective dust opacity as Taueff=TauMER/cos i, where i is the solar incidence angle and TauMER is the dust opacity measured by the Mars Exploration Rovers (MERs) during the same solar longitude and Martian year as the OMEGA observation(see Audouard et al)",
+          "extent": [
+            1.6222625970840454,
+            2.696471929550171
+          ],
+          "unit": "1"
+        }
+      },
+      "watericelin": {
+        "watericelin": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "the criterion described in Langevin et al. (2007) and based on the 1.5 micrometer band depth. It can be used to detect icy frost presence at the surface and thick clouds in the atmosphere. Every OMEGA pixel with a watericelin  value < 0.985 should be excluded.",
+          "extent": [
+            0.993830680847168,
+            1.010777235031128
+          ],
+          "unit": "1"
+        }
+      },
+      "icecloudindex": {
+        "icecloudindex": {
+          "dimensions": [
+            "longitude",
+            "latitude",
+            "wavelength"
+          ],
+          "type": "data",
+          "description": "the criterion (reflectance at 3.4 micrometer divided by reflectance at 3.52 micrometer) described in Langevin et al. (2007) to identify the presence of water ice clouds. Its values range from 0.5 to 1.0. The smallest values unambiguously indicate the presence of icy clouds. We usually exclude any OMEGA pixel with a value < 0.8.",
+          "extent": [
+            0.7746049165725708,
+            0.857255756855011
+          ],
+          "unit": "1"
+        }
+      },
+      "wavelength": {
+        "wavelength": {
+          "dimensions": [
+            "z"
+          ],
+          "type": "auxiliary",
+          "description": "electomagnetic wavelength",
+          "extent": [
+            0.9691500067710876,
+            2.6309800148010254
+          ],
+          "unit": "micrometer"
+        }
+      },
+      "latitude": {
+        "latitude": {
+          "dimensions": [
+            "y"
+          ],
+          "type": "auxiliary",
+          "description": "latitude of the pixel",
+          "extent": [
+            -60.0,
+            -59.65625
+          ],
+          "unit": "degrees_north"
+        }
+      },
+      "longitude": {
+        "longitude": {
+          "dimensions": [
+            "x"
+          ],
+          "type": "auxiliary",
+          "description": "longitude of the pixel",
+          "extent": [
+            -121.78125,
+            -119.03125
+          ],
+          "unit": "degrees_east"
+        }
+      }
+    },
+    "mission": "mex",
+    "instruments": [
+      "omega"
+    ],
+    "datetime": "2004-01-18T20:27:30.034000Z"
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {
+    "nc": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/0030_0.nc",
+      "type": "application/netcdf",
+      "description": "NetCDF data",
+      "size": "552.5 KiB",
+      "roles": [
+        "data"
+      ]
+    },
+    "sav": {
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L3/0030_0.sav",
+      "type": "image/tiff; application=geotiff",
+      "description": "IDL .sav data",
+      "size": "540.5 KiB",
+      "map_dimensions": [
+        12,
+        89
+      ],
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "urn:pdssp:ias:collection:omega_c_channel_proj"
+}
