@@ -2,7 +2,7 @@
   "type": "Feature",
   "stac_version": "1.1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/ssys/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/ssys/v1.1.1/schema.json",
     "https://stac-extensions.github.io/datacube/v2.2.0/schema.json"
   ],
   "id": "0022_0",
@@ -1561,258 +1561,224 @@
     "ssys:target_class": "planet",
     "cube:dimensions": {
       "wavelength": {
-        "wavelength": {
-          "type": "spatial",
-          "description": "electomagnetic wavelength",
-          "axis": "z",
-          "extent": [
-            0.9691500067710876,
-            2.6309800148010254
-          ],
-          "unit": "micrometer"
-        }
+        "type": "spatial",
+        "description": "electomagnetic wavelength",
+        "axis": "z",
+        "extent": [
+          0.9691500067710876,
+          2.6309800148010254
+        ],
+        "unit": "micrometer"
       },
       "latitude": {
-        "latitude": {
-          "type": "spatial",
-          "description": "latitude of the pixel",
-          "axis": "y",
-          "extent": [
-            -60.0,
-            -55.34375
-          ],
-          "step": 0.03125,
-          "unit": "degrees_north"
-        }
+        "type": "spatial",
+        "description": "latitude of the pixel",
+        "axis": "y",
+        "extent": [
+          -60.0,
+          -55.34375
+        ],
+        "step": 0.03125,
+        "unit": "degrees_north"
       },
       "longitude": {
-        "longitude": {
-          "type": "spatial",
-          "description": "longitude of the pixel",
-          "axis": "x",
-          "extent": [
-            97.78125,
-            100.9375
-          ],
-          "step": 0.03125,
-          "unit": "degrees_east"
-        }
+        "type": "spatial",
+        "description": "longitude of the pixel",
+        "axis": "x",
+        "extent": [
+          97.78125,
+          100.9375
+        ],
+        "step": 0.03125,
+        "unit": "degrees_east"
       }
     },
     "cube:variables": {
       "solar_longitude": {
-        "solar_longitude": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "Mars-Sun angle, measured from the Northern Hemisphere spring equinox where Ls=0.",
-          "values": [
-            333.9649963378906
-          ],
-          "unit": "degrees"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "Mars-Sun angle, measured from the Northern Hemisphere spring equinox where Ls=0.",
+        "values": [
+          333.9649963378906
+        ],
+        "unit": "degrees"
       },
       "data_quality": {
-        "data_quality": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "as defined in EAICD",
-          "values": [
-            3
-          ],
-          "unit": "1"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "as defined in EAICD",
+        "values": [
+          3
+        ],
+        "unit": "1"
       },
       "start_time": {
-        "start_time": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "time when acquisition starts",
-          "values": [
-            "2004-01-15T16:06:50.034"
-          ],
-          "unit": "1"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "time when acquisition starts",
+        "values": [
+          "2004-01-15T16:06:50.034"
+        ],
+        "unit": "1"
       },
       "stop_time": {
-        "stop_time": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "time when acquisition stops",
-          "values": [
-            "2004-01-15T16:10:41.062"
-          ],
-          "unit": "1"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "time when acquisition stops",
+        "values": [
+          "2004-01-15T16:10:41.062"
+        ],
+        "unit": "1"
       },
       "Reflectance": {
-        "Reflectance": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "The reflectance of the surface at a given wavelength lambda is defined by the 'reflectance factor' I(lambda)/(F cos(i)) where i is the solar incidence angle with lambda from 0.97 to 2.55 micrometer. The spectra are corrected for atmospheric and aerosol contributions according to the method described in Vincendon et al. (Icarus, 251, 2015). It therefore corresponds to albedo for a lambertian surface.",
-          "extent": [
-            -1.0,
-            0.4472362995147705
-          ],
-          "unit": "1"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "The reflectance of the surface at a given wavelength lambda is defined by the 'reflectance factor' I(lambda)/(F cos(i)) where i is the solar incidence angle with lambda from 0.97 to 2.55 micrometer. The spectra are corrected for atmospheric and aerosol contributions according to the method described in Vincendon et al. (Icarus, 251, 2015). It therefore corresponds to albedo for a lambertian surface.",
+        "extent": [
+          -1.0,
+          0.4472362995147705
+        ],
+        "unit": "1"
       },
       "altitude": {
-        "altitude": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "altitude of the mars surface based on the MOLA topography",
-          "extent": [
-            0.23866669833660126,
-            2.789250135421753
-          ],
-          "unit": "meter"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "altitude of the mars surface based on the MOLA topography",
+        "extent": [
+          0.23866669833660126,
+          2.789250135421753
+        ],
+        "unit": "meter"
       },
       "incidence_g": {
-        "incidence_g": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "incidence on the ellipsoid",
-          "extent": [
-            48.386898040771484,
-            54.56298828125
-          ],
-          "unit": "degrees"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "incidence on the ellipsoid",
+        "extent": [
+          48.386898040771484,
+          54.56298828125
+        ],
+        "unit": "degrees"
       },
       "incidence_n": {
-        "incidence_n": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "incidence wrt the local gravity field",
-          "extent": [
-            31.914098739624023,
-            62.922096252441406
-          ],
-          "unit": "degrees"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "incidence wrt the local gravity field",
+        "extent": [
+          31.914098739624023,
+          62.922096252441406
+        ],
+        "unit": "degrees"
       },
       "tau": {
-        "tau": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "Taueff, the effective dust opacity as Taueff=TauMER/cos i, where i is the solar incidence angle and TauMER is the dust opacity measured by the Mars Exploration Rovers (MERs) during the same solar longitude and Martian year as the OMEGA observation(see Audouard et al)",
-          "extent": [
-            1.5257641077041626,
-            1.9270384311676025
-          ],
-          "unit": "1"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "Taueff, the effective dust opacity as Taueff=TauMER/cos i, where i is the solar incidence angle and TauMER is the dust opacity measured by the Mars Exploration Rovers (MERs) during the same solar longitude and Martian year as the OMEGA observation(see Audouard et al)",
+        "extent": [
+          1.5257641077041626,
+          1.9270384311676025
+        ],
+        "unit": "1"
       },
       "watericelin": {
-        "watericelin": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "the criterion described in Langevin et al. (2007) and based on the 1.5 micrometer band depth. It can be used to detect icy frost presence at the surface and thick clouds in the atmosphere. Every OMEGA pixel with a watericelin  value < 0.985 should be excluded.",
-          "extent": [
-            0.9898396730422974,
-            1.0241891145706177
-          ],
-          "unit": "1"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "the criterion described in Langevin et al. (2007) and based on the 1.5 micrometer band depth. It can be used to detect icy frost presence at the surface and thick clouds in the atmosphere. Every OMEGA pixel with a watericelin  value < 0.985 should be excluded.",
+        "extent": [
+          0.9898396730422974,
+          1.0241891145706177
+        ],
+        "unit": "1"
       },
       "icecloudindex": {
-        "icecloudindex": {
-          "dimensions": [
-            "longitude",
-            "latitude",
-            "wavelength"
-          ],
-          "type": "data",
-          "description": "the criterion (reflectance at 3.4 micrometer divided by reflectance at 3.52 micrometer) described in Langevin et al. (2007) to identify the presence of water ice clouds. Its values range from 0.5 to 1.0. The smallest values unambiguously indicate the presence of icy clouds. We usually exclude any OMEGA pixel with a value < 0.8.",
-          "extent": [
-            0.8126891255378723,
-            0.8845985531806946
-          ],
-          "unit": "1"
-        }
+        "dimensions": [
+          "longitude",
+          "latitude",
+          "wavelength"
+        ],
+        "type": "data",
+        "description": "the criterion (reflectance at 3.4 micrometer divided by reflectance at 3.52 micrometer) described in Langevin et al. (2007) to identify the presence of water ice clouds. Its values range from 0.5 to 1.0. The smallest values unambiguously indicate the presence of icy clouds. We usually exclude any OMEGA pixel with a value < 0.8.",
+        "extent": [
+          0.8126891255378723,
+          0.8845985531806946
+        ],
+        "unit": "1"
       },
       "wavelength": {
-        "wavelength": {
-          "dimensions": [
-            "z"
-          ],
-          "type": "auxiliary",
-          "description": "electomagnetic wavelength",
-          "extent": [
-            0.9691500067710876,
-            2.6309800148010254
-          ],
-          "unit": "micrometer"
-        }
+        "dimensions": [
+          "z"
+        ],
+        "type": "auxiliary",
+        "description": "electomagnetic wavelength",
+        "extent": [
+          0.9691500067710876,
+          2.6309800148010254
+        ],
+        "unit": "micrometer"
       },
       "latitude": {
-        "latitude": {
-          "dimensions": [
-            "y"
-          ],
-          "type": "auxiliary",
-          "description": "latitude of the pixel",
-          "extent": [
-            -60.0,
-            -55.34375
-          ],
-          "unit": "degrees_north"
-        }
+        "dimensions": [
+          "y"
+        ],
+        "type": "auxiliary",
+        "description": "latitude of the pixel",
+        "extent": [
+          -60.0,
+          -55.34375
+        ],
+        "unit": "degrees_north"
       },
       "longitude": {
-        "longitude": {
-          "dimensions": [
-            "x"
-          ],
-          "type": "auxiliary",
-          "description": "longitude of the pixel",
-          "extent": [
-            97.78125,
-            100.9375
-          ],
-          "unit": "degrees_east"
-        }
+        "dimensions": [
+          "x"
+        ],
+        "type": "auxiliary",
+        "description": "longitude of the pixel",
+        "extent": [
+          97.78125,
+          100.9375
+        ],
+        "unit": "degrees_east"
       }
     },
     "mission": "mex",
