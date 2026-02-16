@@ -1,6 +1,6 @@
 {
   "type": "Catalog",
-  "id": "urn:pdssp:ias:body:mars",
+  "id": "mars",
   "stac_version": "1.1.0",
   "description": "This test STAC catalog contains Mars data collections and sub-catalogs currently hosted and distributed by\n[PSUP](http://psup.ias.u-psud.fr/sitools/client-user/index.html?project=PLISonMars) (Planetary SUrface Portal).\n\n![Mars](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mars_%28white_background%29.jpg/120px-Mars_%28white_background%29.jpg)\n",
   "links": [
@@ -11,23 +11,27 @@
     },
     {
       "rel": "child",
-      "href": "./urn:pdssp:ias:collection:features_datasets/collection.json",
-      "type": "application/json"
+      "href": "./features_datasets/collection.json",
+      "type": "application/json",
+      "title": "Mars vectorial features"
     },
     {
       "rel": "child",
-      "href": "./urn:pdssp:ias:collection:omega_mineral_maps/collection.json",
-      "type": "application/json"
+      "href": "./omega_mineral_maps/collection.json",
+      "type": "application/json",
+      "title": "OMEGA mineral maps dataset"
     },
     {
       "rel": "child",
-      "href": "./urn:pdssp:ias:collection:omega_data_cubes/collection.json",
-      "type": "application/json"
+      "href": "./omega_data_cubes/collection.json",
+      "type": "application/json",
+      "title": "OMEGA data cubes (L2)"
     },
     {
       "rel": "child",
-      "href": "./urn:pdssp:ias:collection:omega_c_channel_proj/collection.json",
-      "type": "application/json"
+      "href": "./omega_c_channel_proj/collection.json",
+      "type": "application/json",
+      "title": "OMEGA data cubes (L3)"
     }
   ],
   "stac_extensions": [

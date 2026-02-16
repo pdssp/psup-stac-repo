@@ -1,0 +1,146 @@
+{
+  "type": "Collection",
+  "id": "omega_c_channel_proj",
+  "stac_version": "1.1.0",
+  "description": "These data cubes have been specifically selected and filtered for studies of the surface mineralogy between 1 and 2.5 \u00b5m.\n\nThey contain all the OMEGA observations acquired with the C channel after filtering. Filtering processes have been implemented to remove some instrumental artefacts and observational conditions. Each OMEGA record is available as a `netCDF4.nc` file and an `idl.sav`.\n\nBoth files contain the cubes of reflectance of the surface at a given longitude, latitude and wavelength \u03bb. The reflectance is defined by the \u201creflectance factor\u201d $\frac{I(\\lambda)}{F \\cos(i)}$ where i is the solar incidence angle with $\\lambda$ from 0.97 to 2.55 \u00b5m (second dimension of the cube with 120 wavelengths). The spectra are corrected for atmospheric and aerosol contributions according to the method described in Vincendon et al. (Icarus, 251, 2015). It therefore corresponds to albedo for a lambertian surface. The first dimension of the cube refers to the length of scan. It can be 32, 64, or 128 pixels. It gives the first spatial dimension. The third dimension refers to the rank of the scan. It is the second spatial dimension.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./0018_0/0018_0.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./0022_0/0022_0.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./0022_1/0022_1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./0032_1/0032_1.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./0037_0/0037_0.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./0037_3/0037_3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "item",
+      "href": "./0041_3/0041_3.json",
+      "type": "application/geo+json"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/ssys/v1.1.1/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/eo/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json"
+  ],
+  "sci:publications": [
+    {
+      "doi": "10.1016/j.icarus.2023.115537",
+      "citation": "\nLucie Riu, John Carter, Fran\u00e7ois Poulet, Alejandro Cardes\u00edn-Moinelo, Patrick Martin, Global surficial water content stored in hydrated silicates at Mars from OMEGA/MEx, Icarus, Volume 398, 2023, 115537, ISSN 0019-1035,\n"
+    },
+    {
+      "doi": "10.1016/j.icarus.2014.10.029",
+      "citation": "\n        M. Vincendon, J. Audouard, F. Altieri, A. Ody, Mars Express measurements of surface albedo changes over 2004\u20132010, Icarus, Volume 251, 2015, Pages 145-163, ISSN 0019-1035\n        "
+    },
+    {
+      "doi": "10.1002/2014JE004649",
+      "citation": "\nAudouard, J., F. Poulet, M. Vincendon, R. E. Milliken, D. Jouglet, J.-P. Bibring, B. Gondet, and Y. Langevin (2014), Water in the Martian regolith from OMEGA/Mars Express, J. Geophys. Res. Planets, 119, 1969\u20131989\n"
+    },
+    {
+      "doi": "10.1029/2006JE002841",
+      "citation": "\nLangevin, Y., J.-P. Bibring, F. Montmessin, F. Forget, M. Vincendon, S. Dout\u00e9, F. Poulet, and B. Gondet (2007), Observations of the south seasonal cap of Mars during recession in 2004\u20132006 by the OMEGA visible/near-infrared imaging spectrometer on board Mars Express, J. Geophys. Res., 112, E08S12\n"
+    }
+  ],
+  "title": "OMEGA data cubes (L3)",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          78.474,
+          -60.0,
+          322.961,
+          44.4375
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2004-01-14T00:19:12.032000Z",
+          "2004-01-22T21:53:42.032000Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "providers": [
+    {
+      "name": "Institut d'Astrophysique Spatiale (IAS) - IDOC",
+      "description": "The Integrated Data and Operation Center (IDOC) is responsible for processing, archiving\nand distributing data from space science missions in which the IAS institute is involved.\n",
+      "roles": [
+        "processor",
+        "producer",
+        "host"
+      ],
+      "url": "https://idoc.ias.universite-paris-saclay.fr"
+    },
+    {
+      "name": "G\u00e9osciences Paris-Saclay (GEOPS)",
+      "description": "GEOPS is a joint laboratory of the \u201cUniversit\u00e9 de Paris-Sud\u201d (UPSUD) and the \"Centre National\nde la Recherche Scientifique\" (CNRS).\n",
+      "roles": [
+        "processor",
+        "producer"
+      ],
+      "url": "http://geops.geol.u-psud.fr"
+    },
+    {
+      "name": "Planetary SUrface Portal (PSUP)",
+      "description": "PSUP is a french research service, by Observatoire Paris-Sud and Observatoire de Lyon, to help\nthe distribution of high added-value datasets of planetary surfaces.\n",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://psup.cnrs.fr"
+    }
+  ],
+  "summaries": {
+    "ssys:targets": [
+      "mars"
+    ],
+    "eo:bands": [
+      {
+        "name": "NIR-SWIR",
+        "common_name": "c",
+        "description": "[Discontinued] 0.95-2.65 \u00b5m, Non-op since August 2010 (final orbit #8485)",
+        "center_wavelength": 1.8,
+        "full_width_half_max": 1.7
+      }
+    ],
+    "proj:code": [
+      "IAU:2015:49900"
+    ],
+    "ssys:target_class": "planet"
+  }
+}
