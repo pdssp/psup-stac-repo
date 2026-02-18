@@ -1,13 +1,4 @@
-# Ignore everything inside data
-catalog/data/*
-
-# Allow traversal into raw
+catalog/data/**
 !catalog/data/raw/
-
-# Re-include thumbnail directories
-!catalog/data/raw/l2_thumbnail/
-!catalog/data/raw/l3_thumbnail/
-
-# Re-include their contents
-!catalog/data/raw/l2_thumbnail/**
-!catalog/data/raw/l3_thumbnail/**
+!catalog/data/raw/*_thumbnail/
+!catalog/data/raw/*_thumbnail/**
