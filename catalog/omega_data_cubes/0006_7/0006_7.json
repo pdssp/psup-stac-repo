@@ -6,43 +6,43 @@
     "https://stac-extensions.github.io/datacube/v2.2.0/schema.json",
     "https://stac-extensions.github.io/eo/v1.1.0/schema.json"
   ],
-  "id": "0006_8",
+  "id": "0006_7",
   "geometry": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          129.5264892578125,
-          44.3297004699707
+          133.0421905517578,
+          41.16729736328125
         ],
         [
-          129.5264892578125,
-          44.42179870605469
+          133.0421905517578,
+          46.07600021362305
         ],
         [
-          127.5386962890625,
-          44.42179870605469
+          125.08409881591797,
+          46.07600021362305
         ],
         [
-          127.5386962890625,
-          44.3297004699707
+          125.08409881591797,
+          41.16729736328125
         ],
         [
-          129.5264892578125,
-          44.3297004699707
+          133.0421905517578,
+          41.16729736328125
         ]
       ]
     ]
   },
   "bbox": [
-    127.5386962890625,
-    44.3297004699707,
-    129.5264892578125,
-    44.42179870605469
+    125.08409881591797,
+    41.16729736328125,
+    133.0421905517578,
+    46.07600021362305
   ],
   "properties": {
     "orbit_number": "0006",
-    "cube_number": 8,
+    "cube_number": 7,
     "solar_longitude": 330.18798828125,
     "data_quality": 3,
     "pointing_mode": "INERT",
@@ -55,7 +55,7 @@
     "is_target_mars": true,
     "is_l_channel_working": true,
     "is_c_channel_working": true,
-    "martian_time": "26:330.19:21.98",
+    "martian_time": "26:330.19:21.77",
     "ssys:targets": [
       "mars"
     ],
@@ -68,7 +68,7 @@
         "axis": "x",
         "extent": [
           1,
-          31
+          127
         ],
         "step": 1,
         "unit": "px"
@@ -79,7 +79,7 @@
         "axis": "y",
         "extent": [
           1,
-          159
+          39
         ],
         "step": 1,
         "unit": "px"
@@ -209,8 +209,8 @@
         "type": "data",
         "description": "cube (X,[C,L,VIS],Y) of surface reflectance I/F/cos(i) where: \n        -channel C=[1.0-2.7 micrometers]; L=[2.6-5.2 micrometers]; Visible=[0.3-1.07 micrometers]\n        -atmospheric attenuation is corrected (1-5 micrometer);\n        -airborne dust scattering is corrected (0.4-2.5 micrometer and for 5 micrometer emissivity estimations); \n        -thermal contribution is removed (> 3 micrometer); L channel data is coregistered with C channel's; \n        -and where, if coregistered VIS channel data is available, it is used.",
         "extent": [
-          -10.784568786621094,
-          0.012049360200762749
+          -191.1851806640625,
+          0.013133473694324493
         ],
         "unit": "1"
       },
@@ -223,8 +223,8 @@
         "type": "data",
         "description": "altitude of the mars surface based on the MOLA topography",
         "extent": [
-          5238.42822265625,
-          5948.119140625
+          4073.520263671875,
+          7114.2021484375
         ],
         "unit": "meter"
       },
@@ -252,7 +252,7 @@
         "description": "the criterion (reflectance at 3.4 micrometer divided by reflectance at 3.52 micrometer)  described in Langevin et al. (2007) to identify the presence of water ice clouds. Its values range from 0.5 to 1.0. The smallest values unambiguously indicate the presence of icy clouds. We usually exclude any OMEGA pixel with a value < 0.8.",
         "extent": [
           -1.0,
-          0.3993465006351471
+          0.3993469476699829
         ],
         "unit": "1"
       },
@@ -265,8 +265,8 @@
         "type": "data",
         "description": "Martian hour at local true solar time LTST for the measure.",
         "extent": [
-          21.978239059448242,
-          22.1218318939209
+          21.768627166748047,
+          22.35009765625
         ],
         "unit": "h at LTST"
       },
@@ -279,8 +279,8 @@
         "type": "data",
         "description": "Longitude of the pixel footprint corner point 0.",
         "extent": [
-          44.42770004272461,
-          46.796199798583984
+          41.2510986328125,
+          51.770999908447266
         ],
         "unit": "degrees_east"
       },
@@ -293,8 +293,8 @@
         "type": "data",
         "description": "Longitude of the pixel footprint corner point 1.",
         "extent": [
-          44.3572998046875,
-          46.71689987182617
+          41.19139862060547,
+          51.669097900390625
         ],
         "unit": "degrees_east"
       },
@@ -307,8 +307,8 @@
         "type": "data",
         "description": "Longitude of the pixel footprint corner point 2.",
         "extent": [
-          44.2318000793457,
-          46.58089828491211
+          41.08329772949219,
+          51.51219940185547
         ],
         "unit": "degrees_east"
       },
@@ -321,8 +321,8 @@
         "type": "data",
         "description": "Longitude of the pixel footprint corner point 3.",
         "extent": [
-          44.30179977416992,
-          46.65979766845703
+          41.142799377441406,
+          51.61369705200195
         ],
         "unit": "degrees_east"
       },
@@ -335,8 +335,8 @@
         "type": "data",
         "description": "Latitude of the pixel footprint corner point 0.",
         "extent": [
-          44.42770004272461,
-          46.796199798583984
+          41.2510986328125,
+          51.770999908447266
         ],
         "unit": "degrees_north"
       },
@@ -349,8 +349,8 @@
         "type": "data",
         "description": "Latitude of the pixel footprint corner point 1.",
         "extent": [
-          44.3572998046875,
-          46.71689987182617
+          41.19139862060547,
+          51.669097900390625
         ],
         "unit": "degrees_north"
       },
@@ -363,8 +363,8 @@
         "type": "data",
         "description": "Latitude of the pixel footprint corner point 2.",
         "extent": [
-          44.2318000793457,
-          46.58089828491211
+          41.08329772949219,
+          51.51219940185547
         ],
         "unit": "degrees_north"
       },
@@ -377,8 +377,8 @@
         "type": "data",
         "description": "Latitude of the pixel footprint corner point 3.",
         "extent": [
-          44.30179977416992,
-          46.65979766845703
+          41.142799377441406,
+          51.61369705200195
         ],
         "unit": "degrees_north"
       },
@@ -391,8 +391,8 @@
         "type": "data",
         "description": "Incidence angle with respect to the outward normal to the reference ellipsoid (unit degree).",
         "extent": [
-          136.92849731445312,
-          139.53289794921875
+          131.99659729003906,
+          143.56639099121094
         ],
         "unit": "degrees"
       },
@@ -405,8 +405,8 @@
         "type": "data",
         "description": "Emergence angle with respect to the outward normal to the reference ellipsoid (unit degree).",
         "extent": [
-          73.60089874267578,
-          75.71959686279297
+          70.00749969482422,
+          79.0916976928711
         ],
         "unit": "degrees"
       },
@@ -419,8 +419,8 @@
         "type": "data",
         "description": "Incidence angle with respect to the local normal (unit degree).",
         "extent": [
-          137.16209411621094,
-          139.76959228515625
+          132.22259521484375,
+          143.8083038330078
         ],
         "unit": "degrees"
       },
@@ -433,8 +433,8 @@
         "type": "data",
         "description": "Slant distance from the spacecraft to the pixel footprint center point (unit meter).",
         "extent": [
-          20716144.0,
-          20836956.0
+          20514852.0,
+          21014580.0
         ],
         "unit": "meters"
       },
@@ -461,8 +461,8 @@
         "type": "data",
         "description": "latitude of the pixel",
         "extent": [
-          44.3297004699707,
-          46.688499450683594
+          41.167198181152344,
+          51.64149856567383
         ],
         "unit": "degree North"
       },
@@ -475,8 +475,8 @@
         "type": "data",
         "description": "longitude of the pixel, ranges from -180 to +180 degrees",
         "extent": [
-          127.37259674072266,
-          129.5264892578125
+          124.47039794921875,
+          133.19248962402344
         ],
         "unit": "degree East"
       },
@@ -488,7 +488,7 @@
         "description": "abscissa of the pixel",
         "extent": [
           1,
-          31
+          127
         ],
         "unit": "px"
       },
@@ -500,7 +500,7 @@
         "description": "ordinate of the pixel",
         "extent": [
           1,
-          159
+          39
         ],
         "unit": "px"
       },
@@ -567,7 +567,7 @@
   ],
   "assets": {
     "nc": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_8.nc",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_7.nc",
       "type": "application/netcdf",
       "description": "NetCDF data",
       "size": "7.3 MiB",
@@ -577,13 +577,13 @@
       ]
     },
     "sav": {
-      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_8.sav",
+      "href": "http://psup.ias.u-psud.fr/sitools/datastorage/user/storage/omegacubes/cubes_L2/0006_7.sav",
       "type": "image/tiff; application=geotiff",
       "description": "IDL .sav data",
       "size": "7.5 MiB",
       "dims": [
-        160,
-        32
+        40,
+        128
       ],
       "wavelength_n_values": 352,
       "wavelength_range": [
@@ -595,7 +595,7 @@
       ]
     },
     "thumbnail": {
-      "href": "../catalog/data/raw/l2_thumbnail/0006_8_256x256.png",
+      "href": "../catalog/data/raw/l2_thumbnail/0006_7_256x256.png",
       "type": "image/png",
       "description": "PNG thumbnail preview for visualizations",
       "roles": [
@@ -604,5 +604,5 @@
     }
   },
   "collection": "omega_data_cubes",
-  "ssys:local_time": "26:330.19:21.98"
+  "ssys:local_time": "26:330.19:21.77"
 }
